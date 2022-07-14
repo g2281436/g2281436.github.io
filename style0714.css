@@ -1,4 +1,4 @@
-btn-square{
+.btn-square{
     display: inline-block;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -7,13 +7,13 @@ btn-square{
     border-bottom: solid 4px #627295;
     border-radius: 3px;
 }
-btn-square:active {
+.btn-square:active {
     /*ボタンを押したとき*/
     -webkit-transform: translateY(4px);
     transform: translateY(4px);/*下に動く*/
     border-bottom: none;/*線を消す*/
 }
-btn-flat-logo {
+.btn-flat-logo {
     position: relative;
     display: inline-block;
     font-weight: bold;
@@ -23,7 +23,7 @@ btn-flat-logo {
     background: #00bcd4;
     transition: .4s;
 } 
-btn-flat-logo:hover {
+.btn-flat-logo:hover {
     background: #1ec7bb;
 }
 h1{
