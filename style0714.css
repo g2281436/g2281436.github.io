@@ -26,6 +26,21 @@
 .btn-flat-logo:hover {
     background: #1ec7bb;
 }
+.btn-flat-simple {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ECECEC;
+    transition: .4s;
+  }
+  
+  .btn-flat-simple:hover {
+    background: #00bcd4;
+    color: white;
+  }
 h1{
     padding: 0.5em;/*文字周りの余白*/
     color: #494949;/*文字色*/
