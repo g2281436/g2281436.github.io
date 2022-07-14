@@ -1,11 +1,10 @@
-h1 {
+h1{
     padding: 0.5em;/*文字周りの余白*/
     color: #494949;/*文字色*/
     background: #fffaf4;/*背景色*/
     border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
 }
-
-h6 {
+h6{
     color: #505050;/*文字色*/
     padding: 0.5em;/*文字周りの余白*/
     display: inline-block;/*おまじない*/
@@ -14,13 +13,11 @@ h6 {
     vertical-align: middle;
     border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
 }
-
 h6:before {
     content: '●';
     color: white;
     margin-right: 8px;
 }
-
 btn-square{
     display: inline-block;
     padding: 0.5em 1em;
@@ -30,14 +27,12 @@ btn-square{
     border-bottom: solid 4px #627295;
     border-radius: 3px;
 }
-
 btn-square:active {
     /*ボタンを押したとき*/
     -webkit-transform: translateY(4px);
     transform: translateY(4px);/*下に動く*/
     border-bottom: none;/*線を消す*/
-  }
-
+}
 btn-flat-logo {
     position: relative;
     display: inline-block;
@@ -47,8 +42,7 @@ btn-flat-logo {
     color: #FFF;
     background: #00bcd4;
     transition: .4s;
-}
-  
+} 
 btn-flat-logo:hover {
     background: #1ec7bb;
 }
