@@ -5,7 +5,7 @@ h1 {
     border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
 }
 
-h4 {
+h6 {
     color: #505050;/*文字色*/
     padding: 0.5em;/*文字周りの余白*/
     display: inline-block;/*おまじない*/
@@ -15,7 +15,7 @@ h4 {
     border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
 }
 
-h4:before {
+h6:before {
     content: '●';
     color: white;
     margin-right: 8px;
