@@ -9,6 +9,17 @@
     <link href="style0714.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
+    <time id="modify"></time>
+    <script>
+        /* 更新日の取得 */
+        const last = new Date(document.lastModified);
+        const year = last.getFullYear();
+        const month = last.getMonth() + 1;
+        const date = last.getDate();
+        /* 日付を書き換える */
+        const target = document.getElementById('modify');
+        target.textContent = year + '-' + month + '-' + date;
+    </script>
     <h1>ポートフォリオ07141445</h1>
     <a href="about.html" class="btn-square">自己紹介</a><br>
     <a href="achievements.html" class="btn-flat-logo"><i class="fa fa-chervon-right"></i>研究実績</a><br>
