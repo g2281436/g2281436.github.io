@@ -28,15 +28,34 @@
           <meta itemprop="position" content="2" />
         </li>
       </ol>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">研究</h2>
+                        <p class="card-text">
+                            <?php
+                                $file = fopen("data/research.txt", "r");
+                                while(!feof($file)) {
+                                    echo fgets($file);
+                                }
+                                fclose($file);
+                            ?>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
       <div class="reserch_achievements">
-        <h2>研究成果</h2>
+        <h6>研究成果</h6>
         <ul>
             <li>
-                <pre>
-                     高頭 陸, 神野 健哉
-                     "微小摂動を考慮したPSOの解探索能力の考察"
-                     電子情報通信学会 非線形問題研究会, NLP2021-65, pp. 82-85 (J:COMホルトホール大分, 大分, 2021. 12. 17-18)
-                    </pre>
+                <p>
+                    高頭 陸, 神野 健哉<br>
+                    "微小摂動を考慮したPSOの解探索能力の考察"<br>
+                    電子情報通信学会 非線形問題研究会, NLP2021-65, pp. 82-85 (J:COMホルトホール大分, 大分, 2021. 12. 17-18)<br>
+                    </p>
             </li>
             <li>
                 <pre>
@@ -68,5 +87,6 @@
             </li>
 
         </ul>
+        </div>
 </body>
 </html>
