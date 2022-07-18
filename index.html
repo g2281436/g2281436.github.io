@@ -1,16 +1,75 @@
-<nav>
-    <ol class="breadcrumbs">
-    </ol>
-</nav>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ポートフォリオ</title>
     <link href="style0714.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
-    <h1>ポートフォリオ</h1>
+    <h1>Profile</h1>
+    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="index.html">
+              <span itemprop="name">ホーム</span>
+          </a>
+          <meta itemprop="position" content="1" />
+        </li>
+      
+        <li itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem">
+          <a itemprop="item" >
+              <span itemprop="name">自己紹介</span>
+          </a>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+      <div class="about">
+          <div class="about-img">
+              <img src="img/profile.jpg" alt="">
+          </div>
+          <div class="profile">
+              <h6>プロフィール</h6>
+              <p>
+                  名前     :<span class="name">高頭　陸</span><br>
+                  所属     :<span class="belong">東京都市大学　大学院　総合理工学研究科　情報専攻　神野研究室</span><br>
+                  連絡先   :<span class="contact">g2281436@tcu.ac.jp</span><br>
+                  生年月日 :<span class="birth">1998年8月12日</span><br>
+                </p>
+          </div>
+          <div class="mylog">
+              <h6>学歴</h6>
+              <ul>
+                  <li>2014-2017年:筑波大学附属駒場高等学校</li>
+                  <li>2018-2022年:東京都市大学 知識工学部 情報通信工学科</li>
+                  <li>2022-2024年:東京都市大学 大学院 総合理工学科 情報専攻 神野研究室</li>
+              </ul>
+          </div>
+          <div class="skills">
+              <h6>プログラミングスキル</h6>
+              <ul>
+                  <li>
+                      C言語
+                      <p>学校の授業で使用</p>
+                    </li>
+                    <li>
+                        Python
+                        <p><a href="achievements.html">研究</a>で使用中</p>
+                        <p>使用中モジュール</p>
+                        <ul>
+                            <li>numpy</li>
+                            <li>pandas</li>
+                            <li>matplotlib</li>
+                            <li>Tensorflow</li>
+                            <li>Pytorch </li>
+                        </ul>
+                    </li>
+              </ul>
+          </div>
+      </div>
+
     <a href="about.html" class="btn-sticky"> 自己紹介</a><br>
     <a href="achievements.html" class="btn-sticky">研究</a><br>
     <!-- <a href="joy.html" class="btn-sticky">作成したコード類</a><br> -->
