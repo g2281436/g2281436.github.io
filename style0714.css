@@ -135,3 +135,24 @@ h1{
     grid-column: 1 / 2;
     background: #f88;
 }
+body {
+    display: grid;
+    margin: 0;
+    min-height: 100vh;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 100px 1fr;
+}
+body > * {
+    margin: 3px;
+    padding: 10px;
+}
+nav {
+    grid-row: 2;
+    grid-column: 1;
+    background: #aaf;
+}
+main {
+    grid-row: 2;
+    grid-column: 2;
+    background: #afa;
+}
