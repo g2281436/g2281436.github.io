@@ -144,18 +144,18 @@ body > * {
 h1 {
     grid-row: 1;
     grid-column: 1 / span 2;
-    background: #faa;
+    background: #fff;
     border-radius: 10px 10px 0 0;
 }
 main {
     grid-row: 2;
     grid-column: 2;
-    background: #afa;
+    background: #fff;
 }
 nav {
     grid-row: 2;
     grid-column: 1;
-    background: #aaf;
+    background: #fff;
 }
 footer {
     grid-row: 3;
