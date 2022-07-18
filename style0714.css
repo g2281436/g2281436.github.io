@@ -141,13 +141,25 @@ body > * {
     margin: 3px;
     padding: 10px;
 }
-nav {
-    grid-row: 2;
-    grid-column: 1;
-    background: #aaf;
+h1 {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    background: #faa;
+    border-radius: 10px 10px 0 0;
 }
 main {
     grid-row: 2;
     grid-column: 2;
     background: #afa;
+}
+nav {
+    grid-row: 2;
+    grid-column: 1;
+    background: #aaf;
+}
+footer {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    background: #aaa;
+    border-radius: 0 0 10px 10px;
 }
