@@ -201,3 +201,26 @@ ul.outlines li{
   padding: 0.5em;
   list-style-type: none!important;/*ポチ消す*/
 }
+h3 {
+    position: relative;
+    display: inline-block;
+    padding: 0 55px;
+  }
+  
+  h3:before, h3:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+  }
+  
+  h3:before {
+    left:0;
+  }
+  h3:after {
+    right: 0;
+  }
