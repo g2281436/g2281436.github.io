@@ -187,3 +187,17 @@ footer {
     grid-area: ad;
     background: #fff;
 }
+ul.outlines{
+    padding: 0;
+    position: relative;
+}
+  
+ul.outlines li{
+    color: black;
+  border-left: solid 8px orange;/*左側の線*/
+  background: whitesmoke;/*背景色*/
+  margin-bottom: 5px;/*下のバーとの余白*/
+  line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+}
