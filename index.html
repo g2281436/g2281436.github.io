@@ -20,7 +20,7 @@
                         <a href="#about" ><p>自己紹介</p></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#study" ><p>研究</p></a>
+                        <a href="#reserches" ><p>研究</p></a>
                     </li>
                 </ul>  
             </div>  
@@ -73,7 +73,7 @@
                 </section>
             </div>
             <div class="reserches">
-                <section id="study">
+                <section id="reserches">
                 <h2>研究</h2>
                     <div class="reserch_container">
                         <h3>研究内容</h3>
@@ -152,19 +152,21 @@
         </main>
         <!-- <a href="achievements.html" class="btn-sticky">研究</a><br> -->
         <!-- <a href="joy.html" class="btn-sticky">作成したコード類</a><br> -->
-        <time id="modify"></time>
-        <script>
-            /* 更新日の取得 */
-            const last = new Date(document.lastModified);
-            const year = last.getFullYear();
-            const month = last.getMonth() + 1;
-            const date = last.getDate();
-            const hour = last.getHours();
-            const min = last.getMinutes();
-            /* 日付を書き換える */
-            const target = document.getElementById('modify');
-            target.textContent = "更新日時" + year + "/" + month + "/" + date + " " + hour + ":" + min;
-        </script><br>
+        <footer>
+            <time id="modify"></time>
+            <script>
+                /* 更新日の取得 */
+                const last = new Date(document.lastModified);
+                const year = last.getFullYear();
+                const month = last.getMonth() + 1;
+                const date = last.getDate();
+                const hour = last.getHours();
+                const min = last.getMinutes();
+                /* 日付を書き換える */
+                const target = document.getElementById('modify');
+                target.textContent = "更新日時" + year + "/" + month + "/" + date + " " + hour + ":" + min;
+            </script>
+        </footer>
 
         
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
