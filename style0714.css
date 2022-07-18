@@ -125,3 +125,8 @@ h1{
   .breadcrumb li a:hover {
     text-decoration: underline;
   }
+#container {
+    display: grid;
+    grid-template-rows: 100px 50px;
+    grid-template-columns: 150px 1fr;
+}
