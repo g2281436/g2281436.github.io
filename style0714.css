@@ -134,32 +134,41 @@ body {
     display: grid;
     margin: 0;
     min-height: 100vh;
-    grid-template-rows: 100px 1fr 100px;
-    grid-template-columns: 100px 1fr;
+    grid-template-rows: 100px 100px 1fr 100px;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-areas:
+        "title  title  title "
+        "nav    main   ad    "
+        "nav    main   side  "
+        "footer footer footer";
 }
 body > * {
     margin: 3px;
     padding: 10px;
 }
 h1 {
-    grid-row: 1;
-    grid-column: 1 / span 2;
+    grid-area: title;
     background: #fff;
     border-radius: 10px 10px 0 0;
 }
 main {
-    grid-row: 2;
-    grid-column: 2;
+    grid-area: main;
     background: #fff;
 }
-#aside {
-    grid-row: 2;
-    grid-column: 1;
+nav {
+    grid-area: nav;
+    background: #fff;
+}
+#side {
+    grid-area: side;
     background: #fff;
 }
 footer {
-    grid-row: 3;
-    grid-column: 1 / span 2;
-    background: #aaa;
+    grid-area: footer;
+    background: #fff;
     border-radius: 0 0 10px 10px;
+}
+#ad {
+    grid-area: ad;
+    background: #fff;
 }
